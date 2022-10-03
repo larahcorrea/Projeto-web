@@ -8,6 +8,15 @@
 </head>
 <style>
 
+ul {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type:none;
+    text-align: center;
+
+ 
+}
 .container {
     width: 1200px;
     margin: auto;
@@ -23,12 +32,9 @@ h1{
     font: size 35px;
     color: red;
 }
-li{
-    list-style-type:none;
-    
-    text-align: center;
 
-}
+
+
 section{
     width: 33.33%;
 
@@ -37,14 +43,21 @@ section{
 .container_section{
     display: flex;
 }
-header{
-    display: flex;
+
+.margem_d{
+    margin-right: 100px;
+
 }
+h2{
+    font-size: 20px;
+    border: solid blue 1px;
+}
+
 
 
 </style>
 <body>
-    <div class="container"> 
+    <div> 
     <header>
         <nav>
             <ul>
@@ -57,24 +70,27 @@ header{
     </header>
     
  <div class="container_section"> 
-    <section>
+    <section class="margem_d">
         <article>
             <h1>Programação Web </h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus atque in fugiat voluptas, aliquam explicabo quasi enim est omnis sint, tempore deleniti quod provident! Atque repudiandae delectus iste exercitationem rem.</p>
+            <h2>Saiba mais ...</h2>
         </article>
         <article>
             <h1>COVID-19</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis officiis repellat inventore at sapiente, cumque eaque cupiditate dolorem aut fuga quos nisi iusto nostrum sit deserunt, eveniet neque? Quae.</p>
+            <h2>Saiba mais ...</h2>
         </article>
 
         
     </section>
     
-     <section>
+     <section class="margem_d">
         <article>
             <h1>Meu Bairro</h1>
-            <img src="img/masp.webp">
+            <img src="img/masp.webp" width="65%">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio facilis, ipsa delectus quod nisi cupiditate, amet nemo quo veniam consequatur quae eum consectetur. Nisi in, aperiam qui eos vitae maiores!</p>
+            <h2>Saiba mais ...</h2>
         </article>
     
     </section>
@@ -83,17 +99,22 @@ header{
         <article>
             <h1>Meu Bairro</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni eligendi, non, sint esse voluptate recusandae commodi natus sed vero adipisci ipsa nemo, quisquam nobis! Eaque recusandae nam beatae est nulla.</p>
+            <h2>Saiba mais ...</h2>
         </article>  
         <article>
             <h1>No tempo livre</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aspernatur asperiores repellendus, suscipit iusto, modi assumenda, beatae dolor voluptatum quae amet dignissimos quasi facere ut harum. Explicabo illum expedita esse?</p>
+            <h2>Saiba mais ...</h2>
         </article>   
         <article>
             <h1>O que fazer depois da quarentena</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nesciunt quasi, sapiente veritatis saepe esse nisi possimus iusto corrupti non repudiandae aliquid eaque blanditiis facere. Enim optio hic repellendus molestias.</p>
+            <h2>Saiba mais ...</h2>
         </article>
     </section>
 </div>  
     </div>
 </body>
 </html>
+
+

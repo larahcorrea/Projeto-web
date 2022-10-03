@@ -61,6 +61,7 @@
             background-color: rgb(209, 206, 206);
             margin-left: 100px;
             margin-bottom: 100px;
+           
 
         }
         .tabela{
@@ -83,7 +84,11 @@
         }
         form{
             padding: 20px;
-            border left: 50px;
+            
+            
+        }
+        article{
+            display: flex;
         }
        
 
@@ -148,19 +153,19 @@
 
             <section>
 
-                <h1>Fale conosco:</h1>
-                <form  id="caixa_f" method="post" action="cadastro.php">
-                    <label for="idNome">Nome</label><br>
-                    <input type="text" id="idNome" name="idNome"><br/>
-                    <label for="idAssunto">Assunto</label><br>
-                    <input type="text" id="idAssunto" name="idAssunto"><br/>
-                    <label for="idEmail">Email</label><br>
-                    <input type="text" id="idEmail" name="idEmail"><br/>
-                    <label for="idMensagem">Mensagem</label><br>
-                    <input type="text" id="idMensagem" name="idMensagem"><br/>
-                    <input type="submit" value="Enviar" id="idEnviar">
-
-                </form>
+                <article>  <h1>Fale conosco:</h1>
+                    <form  id="caixa_f" method="post" action="cadastro.php">
+                        <label for="idNome">Nome</label><br>
+                        <input type="text" id="idNome" name="idNome"><br/>
+                        <label for="idAssunto">Assunto</label><br>
+                        <input type="text" id="idAssunto" name="idAssunto"><br/>
+                        <label for="idEmail">Email</label><br>
+                        <input type="text" id="idEmail" name="idEmail"><br/>
+                        <label for="idMensagem">Mensagem</label><br>
+                        <input type="text" id="idMensagem" name="idMensagem"><br/>
+                        <input type="submit" value="Enviar" id="idEnviar">
+                </article> 
+                    </form>
             </section>
 
         </main>
