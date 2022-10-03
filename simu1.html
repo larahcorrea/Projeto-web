@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: #ed145b;
+            color: black;
+            font-size: 25px;
+            border: 25px solid #ed145b;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #ed145b;
+            color: black;
+            font-size: 10px;
+            border: 25px solid #ed145b;
+            text-align: center;
+
+        }
+
+        td {
+            text-align: center;
+            background-color: rgb(189, 185, 185);
+            border: rgb(189, 185, 185) solid 10px;
+            text-align: center;
+
+        }
+        
+
+        th {
+            background-color: #1e90ff;
+            border: #1e90ff solid 10px;
+            text-align: center;
+          
+        }
+
+
+        table {
+            border-collapse: collapse;
+
+
+        }
+
+
+        .intervalo {
+            background-color: rgb(139, 137, 137);
+            border: rgb(139, 137, 137) solid 10px;
+        }
+
+        #caixa_f {
+            width: 200px;
+            ;
+            height: 250px;
+
+            background-color: rgb(209, 206, 206);
+            margin-left: 100px;
+            margin-bottom: 100px;
+
+        }
+        .tabela{
+            margin-left:  100px;
+            
+        }
+
+        label {
+            text-align: justify;
+            padding: auto;
+            margin-bottom: 10px;
+
+        }
+        main{
+            display: flex;
+        }
+        h1{
+            text-align: center;
+            margin-left: 80px;
+        }
+        form{
+            padding: 20px;
+            border left: 50px;
+        }
+       
+
+       
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav>
+                <h1>Simulado Checkpoint 2</h1>
+            </nav>
+        </header>
+        <main>
+            <section>
+
+                <table class="tabela">
+                    <hgroup>
+                        <h1>Meu horario Semanal</h1>
+                    </hgroup>
+                    <thead>
+                        <th>Horário</th>
+                        <th>SEG</th>
+                        <th>TER</th>
+                        <th>QUA</th>
+                        <th>QUI</th>
+                        <th>SEX</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>19:00 ás 21:00</td>
+                            <td>Disciplina 1</td>
+                            <td>Disciplina 2</td>
+                            <td>Disciplina 3</td>
+                            <td>Disciplina 4</td>
+                            <td>Disciplina 5</td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="6" class="intervalo">Intervalo</td>
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>21:00 ás 23:15</td>
+                            <td>Disciplina 1</td>
+                            <td>Disciplina 2</td>
+                            <td>Disciplina 3</td>
+                            <td>Disciplina 4</td>
+                            <td>Disciplina 5</td>
+
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </section>
+
+
+
+
+            <section>
+
+                <h1>Fale conosco:</h1>
+                <form  id="caixa_f" method="post" action="cadastro.php">
+                    <label for="idNome">Nome</label><br>
+                    <input type="text" id="idNome" name="idNome"><br/>
+                    <label for="idAssunto">Assunto</label><br>
+                    <input type="text" id="idAssunto" name="idAssunto"><br/>
+                    <label for="idEmail">Email</label><br>
+                    <input type="text" id="idEmail" name="idEmail"><br/>
+                    <label for="idMensagem">Mensagem</label><br>
+                    <input type="text" id="idMensagem" name="idMensagem"><br/>
+                    <input type="submit" value="Enviar" id="idEnviar">
+
+                </form>
+            </section>
+
+        </main>
+
+
+
+        <footer>
+            <section>
+                <h1>Simulado Checkpoint 2</h1>
+            </section>
+
+
+
+        </footer>
+
+
+
+    </div>
+
+</body>
+
+</html>
